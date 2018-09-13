@@ -34,12 +34,16 @@ Want to know more?
             <input type="password" name="password-confirm" placeholder="Verify password..." required/>
         </div>
 
+        <div class="field">
+            <input type="text" name="message" placeholder="Any questions or comments?" />
+        </div>
+
         <div class="newsletter-button">
           <p>
             Sign up for our newsletter?
           </p>
-          <input type="radio" name="newsletter-check" value="yes" /> Yes
-          <input type="radio" name="newsletter-check" value="no" /> No
+          <input type="radio" name="newsletter-check" value="yes" required/> Yes
+          <input type="radio" name="newsletter-check" value="no" required/> No
         </div>
 
         <div class="actions">
@@ -50,7 +54,7 @@ Want to know more?
           <p>
             To become a member you need to agree to our <a href="#">Terms of Service and Privacy Policy</a>.
           </p>
-          <input type="checkbox" name"terms" value="agree" /> I agree
+          <input type="checkbox" name"terms" value="agree" required/> I agree
         </div>
 
       </form>
